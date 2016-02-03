@@ -1,0 +1,49 @@
+/******************************************
+Containment Properties
+******************************************/
+
+
+
+body {
+  font-family: Helvetica;
+  font-size: 32px;
+  margin: 0 auto;
+}
+
+
+img {
+  max-width:100%;
+}
+
+/* tells the specific element to move according to the x or y coordinate. */
+/*h1 {
+  transform: translateY(200px);
+}*/
+
+
+
+/******************************************
+Heading
+******************************************/
+
+
+/* It's a good idea to keep anything "left", "right", or width related in percents (except max-widths). Use pixels or ems for anything "top", "bottom", or height-related. All width is in percentages, except max-widths (in some cases).*/
+
+.container {
+  max-width: 1280px;
+}
+
+.outer {
+  width: 200px;
+  height: 200px;
+  border: solid 2px;
+  margin: 10px;
+  padding-top: 50px;
+}
+
+.inner {
+  width: 100px;
+  height: 100px;
+  border: solid 2px;
+  margin: 0 auto;
+}
