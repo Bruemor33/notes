@@ -33,6 +33,8 @@ Heading
   max-width: 1280px;
 }
 
+/*if you want to center the child add a margin of 0 auto to the child selector*/
+/*you could try and use position: relative; on the child selector to center it within it's parent as well*/
 .outer {
   width: 200px;
   height: 200px;
